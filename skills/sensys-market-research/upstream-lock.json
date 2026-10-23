@@ -1,0 +1,183 @@
+[
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "pin_resolution": "GitHub connector commits/HEAD",
+    "files": [
+      {
+        "path": "skills/customer-research/SKILL.md",
+        "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/customer-research/SKILL.md",
+        "http": 200,
+        "sha256": "ae4769147f63dd5aea1308a0fddd85473601164893f58111dce738738226317e",
+        "bytes": 14878,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/coreyhaines31/marketingskills/skills/customer-research/SKILL.md"
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/LICENSE",
+        "http": 200,
+        "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "bytes": 1069,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/coreyhaines31/marketingskills/LICENSE"
+      },
+      {
+        "path": "skills/customer-research/references/source-guides.md",
+        "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/customer-research/references/source-guides.md",
+        "http": 200,
+        "sha256": "56682ea98d781060396fd4009739d071671b3489a0d4c81f0a0ef3078cb5c9ee",
+        "bytes": 16190,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/coreyhaines31/marketingskills/skills/customer-research/references/source-guides.md"
+      },
+      {
+        "path": "skills/customer-research/references/interviews-and-surveys.md",
+        "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/customer-research/references/interviews-and-surveys.md",
+        "http": 200,
+        "sha256": "56adecdc40af1242464937100349fc1a161627394909551720494bc5ee537076",
+        "bytes": 8640,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/coreyhaines31/marketingskills/skills/customer-research/references/interviews-and-surveys.md"
+      }
+    ]
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "commit": "da38ec1ee89d41e5380e652a97382695003396e7",
+    "pin_resolution": "GitHub connector commits/HEAD",
+    "files": [
+      {
+        "path": "design/skills/user-research/SKILL.md",
+        "url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/da38ec1ee89d41e5380e652a97382695003396e7/design/skills/user-research/SKILL.md",
+        "http": 200,
+        "sha256": "fa18fc13d0f44aa869102962ef9466417ade726d659465195a40fbcf08cee156",
+        "bytes": 1751,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/anthropics/knowledge-work-plugins/design/skills/user-research/SKILL.md"
+      },
+      {
+        "path": "design/skills/research-synthesis/SKILL.md",
+        "url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/da38ec1ee89d41e5380e652a97382695003396e7/design/skills/research-synthesis/SKILL.md",
+        "http": 200,
+        "sha256": "40048615dc81fc8b9b06104769498214d61a35ae4518a0995a12bbbd0ab945a1",
+        "bytes": 3014,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/anthropics/knowledge-work-plugins/design/skills/research-synthesis/SKILL.md"
+      },
+      {
+        "path": "product-management/skills/competitive-brief/SKILL.md",
+        "url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/da38ec1ee89d41e5380e652a97382695003396e7/product-management/skills/competitive-brief/SKILL.md",
+        "http": 200,
+        "sha256": "720916695f99a70e723be02d0123908c9c968ce56e1ffdeeb423014587017cd2",
+        "bytes": 14774,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/anthropics/knowledge-work-plugins/product-management/skills/competitive-brief/SKILL.md"
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/da38ec1ee89d41e5380e652a97382695003396e7/LICENSE",
+        "http": 200,
+        "sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+        "bytes": 11607,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/anthropics/knowledge-work-plugins/LICENSE"
+      },
+      {
+        "path": "design/CONNECTORS.md",
+        "url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/da38ec1ee89d41e5380e652a97382695003396e7/design/CONNECTORS.md",
+        "http": 200,
+        "sha256": "242e232bb37b2bd5778d2e88db7edb53a6100819a8f037d786a3e1a55b4d141f",
+        "bytes": 1139,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/anthropics/knowledge-work-plugins/design/CONNECTORS.md"
+      },
+      {
+        "path": "product-management/CONNECTORS.md",
+        "url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/da38ec1ee89d41e5380e652a97382695003396e7/product-management/CONNECTORS.md",
+        "http": 200,
+        "sha256": "f52733eb0cd1b46f96cbf15bd9d8dd5215c9341d9323f42da076bcddccda2f5e",
+        "bytes": 1429,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/anthropics/knowledge-work-plugins/product-management/CONNECTORS.md"
+      }
+    ]
+  },
+  {
+    "repo": "ScrapeCreators/social-media-research-skills",
+    "commit": "64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2",
+    "pin_resolution": "GitHub connector commits/HEAD",
+    "files": [
+      {
+        "path": "skills/product-demand-research/SKILL.md",
+        "url": "https://raw.githubusercontent.com/ScrapeCreators/social-media-research-skills/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/skills/product-demand-research/SKILL.md",
+        "http": 200,
+        "sha256": "88d57b03fa5200686bd436d5658847f776d33edc365442d36260f8a8be109eaf",
+        "bytes": 2542,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/ScrapeCreators/social-media-research-skills/skills/product-demand-research/SKILL.md"
+      },
+      {
+        "path": "skills/comment-mining/SKILL.md",
+        "url": "https://raw.githubusercontent.com/ScrapeCreators/social-media-research-skills/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/skills/comment-mining/SKILL.md",
+        "http": 200,
+        "sha256": "8fb6527e7e73c2db34c85d83161c39fe04d5dd6b860d8c88f2a654af87e14db2",
+        "bytes": 4067,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/ScrapeCreators/social-media-research-skills/skills/comment-mining/SKILL.md"
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/ScrapeCreators/social-media-research-skills/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/LICENSE",
+        "http": 200,
+        "sha256": "37a2301a00eef329530cc65ddb9f1c1085a2fbfb1bb748adb9eb6fa05bde4f9b",
+        "bytes": 1071,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/ScrapeCreators/social-media-research-skills/LICENSE"
+      }
+    ]
+  },
+  {
+    "repo": "Yui-cx/wechat-article-to-md-skill",
+    "commit": "41f1ed58a9c74e8c61ffbe8f3290c0d13e5ff759",
+    "pin_resolution": "GitHub connector commits/HEAD",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "url": "https://raw.githubusercontent.com/Yui-cx/wechat-article-to-md-skill/41f1ed58a9c74e8c61ffbe8f3290c0d13e5ff759/SKILL.md",
+        "http": 200,
+        "sha256": "4081934824ec96db31f9da6f2be7a518f38e0a5e8560a4d0d1f8389526772e5f",
+        "bytes": 4305,
+        "disposition": "reviewed_only_not_distributed",
+        "bundled_path": null
+      },
+      {
+        "path": "scripts/wechat_article_pipeline.py",
+        "url": "https://raw.githubusercontent.com/Yui-cx/wechat-article-to-md-skill/41f1ed58a9c74e8c61ffbe8f3290c0d13e5ff759/scripts/wechat_article_pipeline.py",
+        "http": 200,
+        "sha256": "a81e3ac15b7a5b5e48a846b3ccf16fb260aaaec782205d2ce37d49eb24f4b50f",
+        "bytes": 36052,
+        "disposition": "reviewed_only_not_distributed",
+        "bundled_path": null
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/Yui-cx/wechat-article-to-md-skill/41f1ed58a9c74e8c61ffbe8f3290c0d13e5ff759/LICENSE",
+        "http": 200,
+        "sha256": "b0b73d7f0b1fccc1a0ecb8e3199b9ba85ef8e97baafd117b6bc8bdb6fba58916",
+        "bytes": 1063,
+        "disposition": "bundled_original",
+        "bundled_path": "vendor/Yui-cx/wechat-article-to-md-skill/LICENSE"
+      },
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/Yui-cx/wechat-article-to-md-skill/41f1ed58a9c74e8c61ffbe8f3290c0d13e5ff759/README.md",
+        "http": 200,
+        "sha256": "7b6244c7aa86abfb75f14e08261eccc4a4bc41023c39ac5a88c5efd3b8a5b595",
+        "bytes": 7016,
+        "disposition": "reviewed_only_not_distributed",
+        "bundled_path": null
+      }
+    ]
+  }
+]

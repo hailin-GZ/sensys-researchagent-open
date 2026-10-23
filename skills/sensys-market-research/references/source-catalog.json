@@ -1,0 +1,1580 @@
+{
+  "catalog_version": 2,
+  "source_count": 95,
+  "snapshot_date": "2026-10-02",
+  "counting_unit": "user-requested source work items; not distinct sites or successful connectors",
+  "sources": [
+    {
+      "source_id": "catalog-site-01",
+      "name": "National Bureau of Statistics of China",
+      "original_label": "National Bureau of Statistics of China",
+      "url": "https://data.stats.gov.cn/",
+      "category": "official",
+      "screenshot_reference": 3,
+      "access_status": "host_content_obtained",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 1,
+      "verified_scope": "official_release",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.stats.gov.cn/sj/zxfb/202609/t20260930_1965449.html"
+      ],
+      "access_methods": [
+        "host_web_reader"
+      ]
+    },
+    {
+      "source_id": "catalog-site-02",
+      "name": "CNNIC",
+      "original_label": "CNNIC",
+      "url": "https://www3.cnnic.cn/6/86/88/index1.html",
+      "category": "official",
+      "screenshot_reference": 3,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 2,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-03",
+      "name": "China Economic Information Network",
+      "original_label": "China Economic Information Network",
+      "url": "https://www.cei.gov.cn/",
+      "category": "official",
+      "screenshot_reference": 3,
+      "access_status": "discovery_only",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 3,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-04",
+      "name": "CAICT",
+      "original_label": "China Academy of Information and Communications Technology",
+      "url": "https://www.caict.ac.cn/kxyj/qwfb/bps/",
+      "category": "official",
+      "screenshot_reference": 3,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 4,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-05",
+      "name": "DRCnet",
+      "original_label": "Development Research Center Network",
+      "url": "https://www.drcnet.com.cn/",
+      "category": "institution",
+      "screenshot_reference": 3,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 5,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-06",
+      "name": "DJ Yanbao",
+      "original_label": "Insight Data/Insight Reports",
+      "url": "https://pro.djyanbao.com/",
+      "category": "aggregator",
+      "screenshot_reference": 3,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 6,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-07",
+      "name": "Qianzhan",
+      "original_label": "Qianzhan Industry Research Institute",
+      "url": "https://bg.qianzhan.com/",
+      "category": "institution",
+      "screenshot_reference": 3,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 7,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-08",
+      "name": "Seed Hangyan",
+      "original_label": "Report Checker",
+      "url": "https://www.seedhangyan.com/",
+      "category": "aggregator",
+      "screenshot_reference": 3,
+      "access_status": "discovery_only",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 8,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-09",
+      "name": "Dydata",
+      "original_label": "Dydata",
+      "url": "https://www.dydata.io/",
+      "category": "aggregator",
+      "screenshot_reference": 3,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 9,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-10",
+      "name": "SGP Report",
+      "original_label": "Sange Pijiang Reports",
+      "url": "https://www.sgpjbg.com/",
+      "category": "aggregator",
+      "screenshot_reference": 3,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 10,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-11",
+      "name": "Hanghangcha",
+      "original_label": "Hanghangcha",
+      "url": "https://www.hanghangcha.com/",
+      "category": "aggregator",
+      "screenshot_reference": 3,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 11,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-12",
+      "name": "Analysys",
+      "original_label": "Analysys/Analysys Research",
+      "url": "https://www.analysys.cn/",
+      "category": "institution",
+      "screenshot_reference": 16,
+      "access_status": "host_content_obtained",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 12,
+      "verified_scope": "public_report_excerpt",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.analysys.cn/article/detail/20021499"
+      ],
+      "access_methods": [
+        "host_web_reader"
+      ]
+    },
+    {
+      "source_id": "catalog-site-13",
+      "name": "TalkingData",
+      "original_label": "Mobile Observatory/TalkingData",
+      "url": "https://mi.talkingdata.com/reports.html?category=SpecialReport",
+      "category": "institution",
+      "screenshot_reference": 15,
+      "access_status": "discovery_only",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 13,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-14",
+      "name": "AskCI Knowledge Base",
+      "original_label": "Frontier Knowledge Base",
+      "url": "https://wk.askci.com/ListTable/",
+      "category": "aggregator",
+      "screenshot_reference": 3,
+      "access_status": "discovery_only",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 14,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-15",
+      "name": "199IT",
+      "original_label": "199IT",
+      "url": "https://www.199it.com/",
+      "category": "aggregator",
+      "screenshot_reference": 11,
+      "access_status": "discovery_only",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 15,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-16",
+      "name": "FX Baogao",
+      "original_label": "Discovery Reports",
+      "url": "https://www.fxbaogao.com/",
+      "category": "aggregator",
+      "screenshot_reference": 6,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 16,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-17",
+      "name": "Bailu Think Tank",
+      "original_label": "Bailu Think Tank",
+      "url": "https://www.bailudata.com/",
+      "category": "institution",
+      "screenshot_reference": 3,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 17,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-18",
+      "name": "AVC",
+      "original_label": "AVC",
+      "url": "https://www.avc-mr.com/",
+      "category": "institution",
+      "screenshot_reference": 3,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 18,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-19",
+      "name": "Endata",
+      "original_label": "EntGroup Data",
+      "url": "https://www.endata.com.cn/",
+      "category": "institution",
+      "screenshot_reference": 3,
+      "access_status": "discovery_only",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 19,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-20",
+      "name": "Linkshop",
+      "original_label": "Linkshop",
+      "url": "https://www.linkshop.com/",
+      "category": "media",
+      "screenshot_reference": 3,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 20,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-21",
+      "name": "DataEye",
+      "original_label": "DataEye",
+      "url": "https://www.dataeye.com/home.html",
+      "category": "institution",
+      "screenshot_reference": 3,
+      "access_status": "discovery_only",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 21,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-22",
+      "name": "Xiaoguo",
+      "original_label": "Xiaoguo Research",
+      "url": "https://www.xiaoguokeji.com/xiaoyuanyingxiao/xiaoyuanyingxiao.html",
+      "category": "institution",
+      "screenshot_reference": 3,
+      "access_status": "discovery_only",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 22,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-23",
+      "name": "Statista",
+      "original_label": "Statista",
+      "url": "https://www.statista.com/",
+      "category": "database",
+      "screenshot_reference": 8,
+      "access_status": "discovery_only",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 23,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-24",
+      "name": "OECD",
+      "original_label": "OECD",
+      "url": "https://data-explorer.oecd.org/",
+      "category": "official",
+      "screenshot_reference": 3,
+      "access_status": "host_content_obtained",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 24,
+      "verified_scope": "report_executive_summary",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.oecd.org/en/publications/oecd-digital-economy-outlook-2024-volume-1_a1689dc5-en/full-report/component-3.html"
+      ],
+      "access_methods": [
+        "host_web_reader"
+      ]
+    },
+    {
+      "source_id": "catalog-site-25",
+      "name": "CEIC",
+      "original_label": "CEIC",
+      "url": "https://www.ceicdata.com/",
+      "category": "database",
+      "screenshot_reference": 3,
+      "access_status": "discovery_only",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 25,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-26",
+      "name": "World Bank",
+      "original_label": "World Bank",
+      "url": "https://data.worldbank.org/",
+      "category": "official",
+      "screenshot_reference": 3,
+      "access_status": "content_obtained",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 26,
+      "verified_scope": "structured_indicators",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://api.worldbank.org/v2/country/CHN/indicator/IT.NET.USER.ZS?format=json&date=2020:2025"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-site-27",
+      "name": "GSMA",
+      "original_label": "GSMA",
+      "url": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/",
+      "category": "institution",
+      "screenshot_reference": 3,
+      "access_status": "content_obtained",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 27,
+      "verified_scope": "full_pdf",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/wp-content/uploads/2026/02/The-Mobile-Economy-2026.pdf"
+      ],
+      "access_methods": [
+        "public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-site-28",
+      "name": "iResearch",
+      "original_label": "iResearch/iResearch Network",
+      "url": "https://report.iresearch.cn/",
+      "category": "institution",
+      "screenshot_reference": 7,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 28,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-29",
+      "name": "AliResearch",
+      "original_label": "AliResearch",
+      "url": "https://www.aliresearch.com/",
+      "category": "institution",
+      "screenshot_reference": 7,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 29,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-30",
+      "name": "CBNData",
+      "original_label": "CBNData",
+      "url": "https://www.cbndata.com/report",
+      "category": "institution",
+      "screenshot_reference": 5,
+      "access_status": "discovery_only",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 30,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-31",
+      "name": "McKinsey",
+      "original_label": "McKinsey",
+      "url": "https://www.mckinsey.com/featured-insights",
+      "category": "institution",
+      "screenshot_reference": 4,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 31,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-32",
+      "name": "iiMedia",
+      "original_label": "iiMedia",
+      "url": "https://www.iimedia.cn/",
+      "category": "institution",
+      "screenshot_reference": 15,
+      "access_status": "content_obtained",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 32,
+      "verified_scope": "public_report_preview",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.iimedia.cn/c400/117540.html"
+      ],
+      "access_methods": [
+        "public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-site-33",
+      "name": "Qimai",
+      "original_label": "Qimai Data",
+      "url": "https://www.qimai.cn/",
+      "category": "database",
+      "screenshot_reference": 10,
+      "access_status": "unavailable",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 33,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-site-35",
+      "name": "Jiguang",
+      "original_label": "Aurora",
+      "url": "https://www.jiguang.cn/",
+      "category": "institution",
+      "screenshot_reference": 9,
+      "access_status": "content_obtained",
+      "historical_inventory_date": "2026-10-01",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 34,
+      "verified_scope": "industry_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.jiguang.cn/media/news/1888"
+      ],
+      "access_methods": [
+        "public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-extra-01",
+      "name": "CB Insights",
+      "url": "https://www.cbinsights.com",
+      "category": "institution",
+      "access_status": "discovery_only",
+      "screenshot_reference": "desktop research article",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 35,
+      "original_label": "CB Insights",
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-extra-02",
+      "name": "Gartner",
+      "url": "https://www.gartner.com",
+      "category": "institution",
+      "access_status": "unavailable",
+      "screenshot_reference": "desktop research article",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 36,
+      "original_label": "Gartner",
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-extra-03",
+      "name": "Baidu Index",
+      "url": "https://index.baidu.com",
+      "category": "search_interest",
+      "access_status": "unavailable",
+      "screenshot_reference": "desktop research article",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 37,
+      "original_label": "Baidu Index",
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-extra-04",
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "media",
+      "access_status": "content_obtained",
+      "screenshot_reference": "desktop research article",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 38,
+      "original_label": "MIT Technology Review",
+      "verified_scope": "technology_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/"
+      ],
+      "access_methods": [
+        "public_http"
+      ]
+    },
+    {
+      "name": "Wikipedia",
+      "original_label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wearable_technology",
+      "category": "reference",
+      "inventory_id": 39,
+      "source_id": "catalog-source-039",
+      "access_status": "content_obtained",
+      "verified_scope": "encyclopedia_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://en.wikipedia.org/wiki/Wearable_technology"
+      ],
+      "access_methods": [
+        "public_http"
+      ],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "source_id": "catalog-account-01",
+      "name": "36Kr",
+      "original_label": "36Kr",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "content_obtained",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 40,
+      "verified_scope": "original_wechat_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://mp.weixin.qq.com/s/bXiN12I4AUiQl4TLdB-anA"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-account-02",
+      "name": "Huxiu",
+      "original_label": "Huxiu",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "unavailable",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 41,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-03",
+      "name": "Tencent Technology",
+      "original_label": "Tencent Technology",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "unavailable",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 42,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-04",
+      "name": "LatePost",
+      "original_label": "LatePost",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "content_obtained",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 43,
+      "verified_scope": "original_wechat_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://mp.weixin.qq.com/s/AQ5IaNzy3VWY8OWuxIWtmA"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-account-05",
+      "name": "TechPlanet",
+      "original_label": "TechPlanet",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "alternate_channel_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 44,
+      "verified_scope": "syndicated_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://finance.sina.com.cn/tech/csj/2026-05-15/doc-inhxyyii5138435.shtml"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-account-06",
+      "name": "TMTPost",
+      "original_label": "TMTPost",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "discovery_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 45,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-07",
+      "name": "ifanr",
+      "original_label": "ifanr",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "discovery_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 46,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-08",
+      "name": "Zhixiao Chengxu",
+      "original_label": "Zhixiao Chengxu",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "alternate_channel_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 47,
+      "verified_scope": "publisher_archive_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.ifanr.com/minapp/864210"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-account-09",
+      "name": "QbitAI",
+      "original_label": "QbitAI",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "discovery_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 48,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-10",
+      "name": "Internet Phantom Thieves",
+      "original_label": "Internet Phantom Thieves",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "discovery_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 49,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-11",
+      "name": "Luanfanshu",
+      "original_label": "Luanfanshu",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "discovery_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 50,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-12",
+      "name": "Shenwang Tencent News",
+      "original_label": "Shenwang Tencent News",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "alternate_channel_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 51,
+      "verified_scope": "syndicated_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://qnmlgb.tech/authors/5bacc788244d4e5dc00480a7"
+      ],
+      "access_methods": [
+        "host_web_reader"
+      ]
+    },
+    {
+      "source_id": "catalog-account-13",
+      "name": "LaterLatePost",
+      "original_label": "LaterLatePost",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "unavailable",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 52,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-14",
+      "name": "Shenran",
+      "original_label": "Shenran",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "alternate_channel_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 53,
+      "verified_scope": "syndicated_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [
+        "host_web_reader"
+      ]
+    },
+    {
+      "source_id": "catalog-account-15",
+      "name": "Weixi Guide",
+      "original_label": "Weixi Guide",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "discovery_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 54,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-16",
+      "name": "Liuyan Feiyu",
+      "original_label": "Liuyan Feiyu",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "alternate_channel_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 55,
+      "verified_scope": "public_author_posts",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [
+        "host_web_reader"
+      ]
+    },
+    {
+      "source_id": "catalog-account-17",
+      "name": "kesoWhat do you think",
+      "original_label": "kesoWhat do you think",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "content_obtained",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 56,
+      "verified_scope": "original_wechat_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://mp.weixin.qq.com/s?__biz=MzI1ODIyMjAwMA%3D%3D&mid=2247485473&idx=1&sn=40ce1dfaa41c9c4e6ff229929810e0b9&chksm=ea0a3afedd7db3e815a9fb2eaf48d26783f0f86481294ad098f7a172cf2330758fd744292818&mpshare=1&scene=1&srcid=0116L4t40AhSndrSaFtRAYdD#rd"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-account-18",
+      "name": "Product Meditations",
+      "original_label": "Product Meditations",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "discovery_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 57,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-19",
+      "name": "Product Kennel",
+      "original_label": "Product Kennel",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "discovery_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 58,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-20",
+      "name": "Morketing",
+      "original_label": "Morketing",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "alternate_channel_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 59,
+      "verified_scope": "publisher_website_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.morketing.com/newsflash/28169"
+      ],
+      "access_methods": [
+        "host_web_reader"
+      ]
+    },
+    {
+      "source_id": "catalog-account-21",
+      "name": "Daojiedoris",
+      "original_label": "Daojiedoris",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "alternate_channel_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 60,
+      "verified_scope": "author_blog_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://mp.weixin.qq.com/s/BmfQAYXT00KEONmN-CI4fQ"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-account-22",
+      "name": "Langchao New Consumption",
+      "original_label": "Langchao New Consumption",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "content_obtained",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 61,
+      "verified_scope": "original_wechat_article",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://mp.weixin.qq.com/s/iZq6y-YEzlYac_N65WSjdg"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-account-23",
+      "name": "Brand PlanetBrandStar",
+      "original_label": "Brand PlanetBrandStar",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "unavailable",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 62,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-24",
+      "name": "Cosmetics News",
+      "original_label": "Cosmetics News",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "discovery_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 63,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-25",
+      "name": "FBIFFood and Beverage Innovation",
+      "original_label": "FBIFFood and Beverage Innovation",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "discovery_only",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 64,
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-account-26",
+      "name": "iResearch",
+      "original_label": "iResearch",
+      "category": "wechat_account",
+      "url": null,
+      "access_status": "unavailable",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 65,
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-crowdfunding-01",
+      "name": "Kickstarter",
+      "url": "https://www.kickstarter.com",
+      "category": "crowdfunding",
+      "funding_model_lead": "reward",
+      "region_lead": "global",
+      "access_status": "content_obtained",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 66,
+      "original_label": "Kickstarter",
+      "verified_scope": "campaign_details",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.kickstarter.com/projects/anypin/anypin-next-gen-wi-fi-wearable-ai-voice-recorder"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-crowdfunding-02",
+      "name": "Indiegogo",
+      "url": "https://www.indiegogo.com",
+      "category": "crowdfunding",
+      "funding_model_lead": "reward",
+      "region_lead": "global",
+      "access_status": "indexed_excerpt_only",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 67,
+      "original_label": "Indiegogo",
+      "verified_scope": "indexed_campaign_excerpt",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.indiegogo.com/en/projects/erikkaiser/crush-revolutionize-your-memory-with-one-click"
+      ],
+      "access_methods": [
+        "host_search_excerpt"
+      ]
+    },
+    {
+      "source_id": "catalog-crowdfunding-03",
+      "name": "Makuake",
+      "url": "https://www.makuake.com",
+      "category": "crowdfunding",
+      "funding_model_lead": "reward",
+      "region_lead": "Japan",
+      "access_status": "content_obtained",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 68,
+      "original_label": "Makuake",
+      "verified_scope": "campaign_details",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.makuake.com/project/aiomijapan/"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-crowdfunding-04",
+      "name": "CAMPFIRE",
+      "url": "https://camp-fire.jp",
+      "category": "crowdfunding",
+      "funding_model_lead": "reward",
+      "region_lead": "Japan",
+      "access_status": "content_obtained",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 69,
+      "original_label": "CAMPFIRE",
+      "verified_scope": "campaign_details",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://camp-fire.jp/projects/962161/view"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-crowdfunding-05",
+      "name": "Wadiz",
+      "url": "https://www.wadiz.kr",
+      "category": "crowdfunding",
+      "funding_model_lead": "reward",
+      "region_lead": "South Korea",
+      "access_status": "indexed_excerpt_only",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 70,
+      "original_label": "Wadiz",
+      "verified_scope": "indexed_campaign_excerpt",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.wadiz.kr/web/campaign/detailBacker/360255"
+      ],
+      "access_methods": [
+        "host_search_excerpt"
+      ]
+    },
+    {
+      "source_id": "catalog-crowdfunding-06",
+      "name": "Zeczec",
+      "url": "https://www.zeczec.com",
+      "category": "crowdfunding",
+      "funding_model_lead": "reward",
+      "region_lead": "Taiwan",
+      "access_status": "content_obtained",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 71,
+      "original_label": "Zeczec",
+      "verified_scope": "campaign_details",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.zeczec.com/projects/jinkon400c"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-crowdfunding-07",
+      "name": "FlyingV",
+      "url": "https://www.flyingv.cc",
+      "category": "crowdfunding",
+      "funding_model_lead": "reward",
+      "region_lead": "Taiwan",
+      "access_status": "content_obtained",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 72,
+      "original_label": "FlyingV",
+      "verified_scope": "campaign_details",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.flyingv.cc/projects/36980"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ]
+    },
+    {
+      "source_id": "catalog-crowdfunding-08",
+      "name": "Ulule",
+      "url": "https://www.ulule.com",
+      "category": "crowdfunding",
+      "funding_model_lead": "reward",
+      "region_lead": "Europe / global",
+      "access_status": "discovery_only",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 73,
+      "original_label": "Ulule",
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-crowdfunding-09",
+      "name": "GoFundMe",
+      "url": "https://www.gofundme.com",
+      "category": "crowdfunding",
+      "funding_model_lead": "donation",
+      "region_lead": "global",
+      "access_status": "discovery_only",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 74,
+      "original_label": "GoFundMe",
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-crowdfunding-10",
+      "name": "Patreon",
+      "url": "https://www.patreon.com",
+      "category": "crowdfunding",
+      "funding_model_lead": "membership",
+      "region_lead": "global",
+      "access_status": "discovery_only",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 75,
+      "original_label": "Patreon",
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "source_id": "catalog-crowdfunding-11",
+      "name": "Wefunder",
+      "url": "https://wefunder.com",
+      "category": "crowdfunding",
+      "funding_model_lead": "investment",
+      "region_lead": "United States lead",
+      "access_status": "indexed_excerpt_only",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 76,
+      "original_label": "Wefunder",
+      "verified_scope": "indexed_platform_information",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://wefunder.com/verticals/hardware"
+      ],
+      "access_methods": [
+        "host_search_excerpt"
+      ]
+    },
+    {
+      "source_id": "catalog-crowdfunding-12",
+      "name": "Republic",
+      "url": "https://republic.com",
+      "category": "crowdfunding",
+      "funding_model_lead": "investment",
+      "region_lead": "United States lead",
+      "access_status": "discovery_only",
+      "screenshot_reference": "supplement shots 21-25",
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access.",
+      "inventory_id": 77,
+      "original_label": "Republic",
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": []
+    },
+    {
+      "name": "Facebook",
+      "original_label": "Facebook",
+      "url": "https://www.facebook.com/plaudai",
+      "category": "social",
+      "inventory_id": 78,
+      "source_id": "catalog-source-078",
+      "access_status": "content_obtained",
+      "verified_scope": "one_visible_public_comment",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.facebook.com/plaudai"
+      ],
+      "access_methods": [
+        "anonymous_playwright"
+      ],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "X",
+      "original_label": "X",
+      "url": "https://x.com/PLAUDAI",
+      "category": "social",
+      "inventory_id": 79,
+      "source_id": "catalog-source-079",
+      "access_status": "discovery_only",
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Douyin",
+      "original_label": "Douyin",
+      "url": "https://www.douyin.com/search/AIVoice recorder",
+      "category": "social",
+      "inventory_id": 80,
+      "source_id": "catalog-source-080",
+      "access_status": "unavailable",
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Xiaohongshu",
+      "original_label": "Xiaohongshu",
+      "url": "https://www.xiaohongshu.com/search_result?keyword=AIVoice recorder",
+      "category": "social",
+      "inventory_id": 81,
+      "source_id": "catalog-source-081",
+      "access_status": "unavailable",
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Taobao",
+      "original_label": "Taobao",
+      "url": "https://s.taobao.com/search?q=AIVoice recorder",
+      "category": "commerce",
+      "inventory_id": 82,
+      "source_id": "catalog-source-082",
+      "access_status": "unavailable",
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "JD.com",
+      "original_label": "JD.com",
+      "url": "https://search.jd.com/Search?keyword=AIVoice recorder",
+      "category": "commerce",
+      "inventory_id": 83,
+      "source_id": "catalog-source-083",
+      "access_status": "content_obtained",
+      "verified_scope": "review_excerpt",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://yp.jd.com/list/670_699_840.html"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Amazon",
+      "original_label": "Amazon",
+      "url": "https://www.amazon.com/s?k=plaud+notepin",
+      "category": "commerce",
+      "inventory_id": 84,
+      "source_id": "catalog-source-084",
+      "access_status": "unavailable",
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Pinduoduo",
+      "original_label": "Pinduoduo",
+      "url": "https://mobile.yangkeduo.com/search_result.html?search_key=Voice recorder",
+      "category": "commerce",
+      "inventory_id": 85,
+      "source_id": "catalog-source-085",
+      "access_status": "unavailable",
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "SHEIN",
+      "original_label": "SHEIN",
+      "url": "https://www.shein.com/pdsearch/voice%20recorder/",
+      "category": "commerce",
+      "inventory_id": 86,
+      "source_id": "catalog-source-086",
+      "access_status": "unavailable",
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Temu",
+      "original_label": "Temu",
+      "url": "https://www.temu.com/search_result.html?search_key=voice%20recorder",
+      "category": "commerce",
+      "inventory_id": 87,
+      "source_id": "catalog-source-087",
+      "access_status": "unavailable",
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "TikTok / TikTok Shop",
+      "original_label": "TikTok / TikTok Shop",
+      "url": "https://www.tiktok.com/search?q=plaud%20notepin",
+      "category": "commerce_social",
+      "inventory_id": 88,
+      "source_id": "catalog-source-088",
+      "access_status": "unavailable",
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "YouTube",
+      "original_label": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=plaud+notepin+review",
+      "category": "social",
+      "inventory_id": 89,
+      "source_id": "catalog-source-089",
+      "access_status": "discovery_only",
+      "verified_scope": "metadata_or_directory",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Instagram",
+      "original_label": "Instagram",
+      "url": "https://www.instagram.com/plaud_official/",
+      "category": "social",
+      "inventory_id": 90,
+      "source_id": "catalog-source-090",
+      "access_status": "content_obtained",
+      "verified_scope": "public_post_caption",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.instagram.com/plaud_official/p/DctFBB7D6Ru/"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Zhihu",
+      "original_label": "Zhihu",
+      "url": "https://www.zhihu.com/search?type=content&q=AIVoice recorder",
+      "category": "social",
+      "inventory_id": 91,
+      "source_id": "catalog-source-091",
+      "access_status": "unavailable",
+      "verified_scope": "none",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Weibo",
+      "original_label": "Weibo",
+      "url": "https://s.weibo.com/weibo?q=AIVoice recorder",
+      "category": "social",
+      "inventory_id": 92,
+      "source_id": "catalog-source-092",
+      "access_status": "alternate_channel_only",
+      "verified_scope": "syndicated_public_posts",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [],
+      "access_methods": [
+        "host_web_reader"
+      ],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Bsite",
+      "original_label": "Bsite",
+      "url": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=AIVoice recorder",
+      "category": "social",
+      "inventory_id": 93,
+      "source_id": "catalog-source-093",
+      "access_status": "content_obtained",
+      "verified_scope": "public_comments",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://api.bilibili.com/x/v2/reply?type=1&oid=117285524147069&pn=1&ps=20&sort=2"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Reddit",
+      "original_label": "Reddit",
+      "url": "https://www.reddit.com/r/OmiAI/comments/1pg4nqb/limitless_pendent_former_customer/.json",
+      "category": "social",
+      "inventory_id": 94,
+      "source_id": "catalog-source-094",
+      "access_status": "host_content_obtained",
+      "verified_scope": "public_discussion_excerpt",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://www.reddit.com/r/OmiAI/comments/1pg4nqb/limitless_pendent_former_customer/"
+      ],
+      "access_methods": [
+        "host_web_reader"
+      ],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    },
+    {
+      "name": "Patent databases",
+      "original_label": "Patent database search",
+      "url": "https://patents.google.com/?q=(wearable+audio+recorder)",
+      "category": "patents",
+      "inventory_id": 95,
+      "source_id": "catalog-source-095",
+      "access_status": "content_obtained",
+      "verified_scope": "patent_document",
+      "connectivity_snapshot_date": "2026-10-02",
+      "verified_sample_urls": [
+        "https://patents.google.com/patent/US11132169B2/en"
+      ],
+      "access_methods": [
+        "curl_cffi_public_http"
+      ],
+      "limitations": "One dated sample/attempt does not establish bulk, continuous, complete or future-server access."
+    }
+  ]
+}

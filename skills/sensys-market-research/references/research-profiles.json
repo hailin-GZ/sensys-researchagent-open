@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.1",
+  "default": "standard",
+  "profiles": {
+    "standard": {
+      "purpose": "Screen a decision with relevant source roles, contrary signals and explicit gaps.",
+      "limits": {"search_queries": 12, "captures": 24, "research_rounds": 2, "results_per_query": 8, "images_per_source": 8},
+      "review_checks": ["decision_scope", "source_roles", "contrary_evidence", "next_validation"]
+    },
+    "deep": {
+      "purpose": "Resolve decisive gaps through targeted follow-up, segmentation and independent cross-checks.",
+      "limits": {"search_queries": 36, "captures": 72, "research_rounds": 4, "results_per_query": 8, "images_per_source": 8},
+      "review_checks": ["decision_scope", "source_roles", "contrary_evidence", "next_validation", "segments_and_situations", "payment_evidence", "product_risks", "independent_crosschecks"]
+    }
+  },
+  "resource_policy": {"local_acquisition_workers": 1, "heavy_workers": 1, "server_cpu_cores": 2, "server_memory_gb": 8, "local_import_max_bytes": 25000000},
+  "notes": [
+    "Limits are initial configurable ceilings, not minimum record counts or validated pricing tiers.",
+    "Both profiles retain identical archive, citation and semantic review standards.",
+    "The host must enforce model-token, monetary and elapsed-time constraints for its own calls."
+  ]
+}

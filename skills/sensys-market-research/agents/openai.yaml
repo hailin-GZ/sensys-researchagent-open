@@ -1,0 +1,4 @@
+interface:
+  display_name: "SENSYS Market Research"
+  short_description: "Standard or deep research with retrievable evidence"
+  default_prompt: "Use $sensys-market-research in standard mode to investigate this product decision with retrievable evidence; honor my choice if I request deep research."

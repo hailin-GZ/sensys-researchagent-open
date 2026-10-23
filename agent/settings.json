@@ -1,0 +1,31 @@
+{
+  "version": "2.1.0",
+  "model": "example-model",
+  "native_web_search": false,
+  "default_effort": "medium",
+  "standard": {
+    "model_tokens": 300000,
+    "model_calls": 48,
+    "seconds": 1800,
+    "search_queries": 12,
+    "captures": 24,
+    "research_rounds": 2,
+    "results_per_query": 15,
+    "images_per_source": 8
+  },
+  "deep": {
+    "model_tokens": 650000,
+    "model_calls": 80,
+    "seconds": 3600,
+    "search_queries": 36,
+    "captures": 72,
+    "research_rounds": 4,
+    "results_per_query": 30,
+    "images_per_source": 8
+  },
+  "output_tokens_per_call": 4096,
+  "report_output_tokens": 12000,
+  "api_timeout_seconds": 300,
+  "acquisition_workers": 1,
+  "heavy_workers": 1
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Market Insights and User Research Agent</title><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/interaction.css"><script src="/report-view.js" defer></script><script src="/app.js" defer></script></head>
+<body>
+<svg class="symbols" aria-hidden="true"><defs>
+<symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M12 4v16m-6-6 6 6 6-6"/></symbol>
+<symbol id="icon-send" viewBox="0 0 24 24"><path d="m5 12 7-7 7 7M12 5v15"/></symbol>
+<symbol id="icon-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="icon-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"/></symbol>
+<symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+<symbol id="icon-spark" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"/></symbol>
+<symbol id="icon-document" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9ZM14 3v6h6M8 13h8M8 17h5"/></symbol>
+<symbol id="icon-out" viewBox="0 0 24 24"><path d="M14 3h7v7M21 3l-11 11M10 4H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2v-5"/></symbol>
+</defs></svg>
+<main>
+<section class="landing" id="home" aria-labelledby="product-name">
+ <div class="insight-lens" aria-hidden="true"><div class="lens-core"></div><div class="lens-orbit orbit-one"></div><div class="lens-orbit orbit-two"></div><div class="lens-orbit orbit-three"></div></div>
+ <div class="landing-top"><div class="landing-brand"><a class="wordmark" href="#home" aria-label="Back to home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>SENSYS<span class="wordmark-sub">Research studio</span></span></a><span class="brand-divider" aria-hidden="true">•</span><span class="company-name">SENSYS</span></div><span class="private-label"><svg><use href="#icon-lock"/></svg>Invite-only access</span></div>
+ <div class="hero-copy"><h1 id="product-name"><span>Market insights and user research</span><span>Agent</span></h1><p>Listen to real needs. Ground your next product idea in evidence.</p></div>
+ <div class="hero-capabilities" aria-label="Research coverage"><ul><li>Information sources <strong>230+</strong></li><li>Catalogued resources <strong>760+</strong></li><li>Project references <strong>130+</strong></li></ul><p>Resource catalog coverage; availability depends on sources and authorization.</p></div>
+ <div class="hero-action"><button class="start-button" id="start">Get started<svg><use href="#icon-arrow"/></svg></button><span>One question starts an in-depth exploration</span></div>
+ <div class="landing-bottom"><p>From scattered clues to a clear judgment.</p><div><span>User needs</span><span>Market and competitors</span><span>Traceable evidence</span></div></div>
+</section>
+<section class="workspace" id="workspace" aria-labelledby="workspace-title" hidden>
+ <header class="workspace-header"><a class="wordmark" href="#home" aria-label="Back to home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span></a><h2 id="workspace-title">Market Insights and User Research Agent <span class="workspace-company"><span aria-hidden="true">•</span> SENSYS</span></h2><div class="header-actions"><span id="remaining-points" class="points-balance">Remaining credits —</span><span class="access-status">Access verified</span><button id="logout" class="text-button">Sign out</button></div></header>
+ <div class="workspace-panels">
+  <section class="results-panel panel" aria-labelledby="results-title">
+   <div class="panel-heading"><div><h3 id="results-title">Research workspace</h3></div><button class="subtle-button" id="new-study"><svg><use href="#icon-plus"/></svg>New chat</button></div>
+   <div class="tablist" role="tablist" aria-label="Research result categories"><button role="tab" id="tab-overview" aria-selected="true" aria-controls="result-body" data-tab="overview">Research overview</button><button role="tab" id="tab-needs" tabindex="-1" aria-selected="false" aria-controls="result-body" data-tab="needs">Needs and opportunities</button><button role="tab" id="tab-competitors" tabindex="-1" aria-selected="false" aria-controls="result-body" data-tab="competitors">Competitive research</button><button role="tab" id="tab-evidence" tabindex="-1" aria-selected="false" aria-controls="result-body" data-tab="evidence">Evidence materials</button></div>
+   <div class="result-scroll" id="result-body" role="tabpanel" aria-labelledby="tab-overview" tabindex="0"></div>
+   <footer class="panel-footer"><span id="result-status">Waiting for a new research question</span><button id="export" class="text-button" disabled>Export record</button></footer>
+  </section>
+  <section class="chat-panel panel" aria-labelledby="chat-title">
+   <div class="chat-heading"><div class="agent-avatar"><svg><use href="#icon-spark"/></svg></div><div><h3 id="chat-title">Research assistant</h3><span>From an idea to the next action</span></div><span class="agent-status">Preview mode</span></div>
+   <div class="messages" id="messages" tabindex="0" aria-label="Conversation records" aria-live="polite"></div>
+   <div class="chat-bottom"><div id="attachments" class="attachments"></div><form id="chat-form" class="composer"><label class="sr-only" for="prompt">Enter a research question</label><textarea id="prompt" rows="3" maxlength="4000" placeholder="Discuss an idea, or tell me what you want to research…"></textarea><div class="composer-tools"><button id="attach" type="button" class="icon-button" aria-label="Select research materials"><svg><use href="#icon-plus"/></svg></button><span>Enter to send · Shift + Enter for a new line</span><button id="send" type="submit" class="send-button" aria-label="Send question" disabled><svg><use href="#icon-send"/></svg></button></div></form><input type="file" id="files" multiple hidden accept=".pdf,.docx,.xlsx,.csv,.txt,.md,.json,.png,.jpg,.jpeg"></div>
+  </section>
+  <aside class="conversation-rail" aria-label="Conversation navigation"><button id="rail-new" type="button" aria-label="New chat"><svg viewBox="0 0 24 24"><path d="M4 20h4L20 8l-4-4L4 16ZM14 6l4 4"/></svg><span>New chat</span></button><button id="history-toggle" type="button" aria-expanded="false" aria-controls="chat-history"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6M3 3v6h6M12 7v6l4 2"/></svg><span>History</span></button></aside><aside id="chat-history" class="chat-history" aria-labelledby="history-title" hidden><div class="history-heading"><h3 id="history-title">Conversation history</h3><button id="history-close" type="button" aria-label="Collapse history"><svg><use href="#icon-close"/></svg></button></div><div id="conversation-list"></div></aside>
+ </div>
+</section>
+</main>
+<dialog id="access-dialog" aria-labelledby="access-title"><form id="access-form"><button type="button" class="dialog-close icon-button" aria-label="Close sign-in dialog"><svg><use href="#icon-close"/></svg></button><span class="dialog-brand">SENSYS / Research space</span><div class="access-icon"><svg><use href="#icon-lock"/></svg></div><h2 id="access-title">Enter an access key</h2><p>Use your administrator-provided access key to enter the research workspace.</p><label for="access-key">Access key</label><input id="access-key" type="password" autocomplete="off" spellcheck="false" required maxlength="200" placeholder="Paste your access key"><p id="access-error" role="alert"></p><button type="submit" id="verify" class="primary-button">Verify and enter</button><small>Stay signed in on this browser for up to 7 days.</small></form></dialog>
+<div id="toast" class="toast" role="status" hidden></div><script src="/research.js" defer></script>
+</body></html>
